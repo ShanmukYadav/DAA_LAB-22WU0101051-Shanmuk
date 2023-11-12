@@ -1,6 +1,6 @@
 def alternate_sort(arr):
     arr.sort()
-    result = []
+    result = [] 
     while arr:
         result.append(arr.pop(0)) 
         if arr:  # check if there are still elements
